@@ -15,7 +15,7 @@ import RatingModal       from './components/RatingModal';
 import { ThemeProvider, ThemeToggle, useTheme } from './components/ThemeContext';
 
 const STATUS_FLOW  = ['Pending', 'Preparing', 'Ready', 'Delivered'];
-import API_BASE from '../api.js';
+import API_BASE from "./api.js";
 const STATUS_STYLE = {
   Pending:   { bg: '#78350f', text: '#fde68a', label: '🕐 Pending' },
   Preparing: { bg: '#1e3a5f', text: '#93c5fd', label: '👨‍🍳 Preparing' },
